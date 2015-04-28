@@ -1,1 +1,586 @@
-hello
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <title>Mohamed Helala website</title>
+    <meta name="description" content="">
+    <meta name="author" content="WebThemez">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]>
+		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" href="css/bootstrap-cust.css" />
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+    <!-- Owl Carousel Assets -->
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand scroll-top logo"><b>Mohamed Helala</b></a>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav" id="mainNav">
+                        <li class="active"><a href="#home" class="scroll-link">Home</a></li>
+                        <li><a href="#aboutMe" class="scroll-link">About Me</a></li>
+                        <li><a href="#projects" class="scroll-link">Projects</a></li>
+                        <li><a href="#publications" class="scroll-link">Publications</a></li>
+			<li><a href="#activities-awards" class="scroll-link">Activities & Awards</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
+        </div>
+        <!--/.container-->
+    </header>
+    <!--/.header-->
+    <div id="#top">
+	<div id='snav' class='en'>
+	  <ul>
+	    <li> <a href='http://mhelala.blogspot.ca/'> <i class="fa fa-bold"></i> <span>Blog</span> </a> </li>
+	    <li> <a href='https://twitter.com/Mohamed_Helala'> <i class="fa fa-twitter"></i> <span>Twitter</span> </a> </li>
+	    <li> <a href='https://github.com/mohamed-helala'> <i class="fa fa-github"></i> <span>Git</span> </a> </li>
+	    <li> <a href='https://plus.google.com/114765445236633498280/posts'> <i class="fa fa-google-plus"></i> <span>Google Plus</span> </a> </li>
+	    <li> <a href='http://www.linkedin.com/pub/mohamed-helala/71/503/681'> <i class="fa fa-linkedin"></i> <span>Linkedin</span> </a> </li>
+	    <li> <a href='http://scholar.google.ca/citations?user=Dw5bcNQAAAAJ&hl=en'> <i class="fa fa-book"></i> <span>Google Scholar</span> </a> </li>
+	  </ul>
+	</div>
+    </div>
+    <section id="home">
+        <div class="banner-container">
+            <!--<img src="images/banner-bg.jpg" alt="banner" />-->
+	    <div class="empty-container"></div>
+            <div class="container banner-content">
+                <div id="da-slider" class="da-slider">
+                    <div class="da-slide">
+            			<h2>Scalable Vision Pipelines</h2>
+            			<p><a href="javascript:customScripts.scroll('#stream')">A formal stream algebra for efficient scalable computer vision pipelines.
+            			</a></p>
+                        <div class="da-img"> <img src="img/stream.png" alt="stream" /></div>
+                    </div>
+                    <div class="da-slide">
+                        <h2>Image Retrieval</h2>
+                        <p><a href="http://mytomcatapp-helala.rhcloud.com/ImageSearch/">Try our demo for content based image retrieval.</a></p>
+			             <div class="da-img"> <img src="img/image-ret.png" alt="image retrieval demo" /></div>
+                    </div>
+                    <div class="da-slide">
+                        <h2>Traffic Video Survillance</h2>
+                        <p><a href="javascript:customScripts.scroll('#traffic')">Automatic road and lane boundary detection.</a></p>
+                        <div class="da-img"> <img src="img/traffic.png" alt="traffic" /></div>
+                    </div>
+                    <div class="da-slide">
+                        <h2>Image Correspondance</h2>
+                        <p><a href="javascript:customScripts.scroll('#stereo')">Developing cost subvolume filtering for solving pixel labeling problems</a></p>
+                        <div class="da-img"> <img src="img/imcoress.png" alt="traffic" /></div>
+                    </div>
+		            <div class="da-slide">
+                        <h2>Image Mosaicking</h2>
+                        <p><a href="javascript:customScripts.scroll('#mosaics')">Multi-view mosaics from near ground aerial imagery</a></p>
+                        <div class="da-img"> <img src="img/mosaic.png" alt="traffic" /></div>
+                    </div>
+				<!--  <nav class="da-arrows">
+                        <span class="da-arrows-prev"></span>
+                        <span class="da-arrows-next"></span>
+                    </nav> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="introText">
+            <div class="parlex-back">
+            <div class=" text-center">
+				<h2>There are no negatives in life, only challenges to overcome that will make you stronger.</h2><h3>-Eric Bates</h3>
+            </div>
+            <!--/.container-->
+        </div>
+
+    </section>
+    <!--About-->
+    <section id="aboutMe" class="secPad titlebox">
+        <div class="container">
+            <div class="row">
+		<!-- item -->
+                <div class="col-md-3 text-center tileBox">
+                    <div class="txtHead">
+                    <h3><i class="fa fa-edit"></i><span class="id-color">Contact</span></h3></div>
+			<p>Mohamed A. Helala<br>
+			PhD Student in Computer Science, Faculty of Science, UOIT<br>
+			<abbr title="Phone">P:</abbr> (905) 721-8668 <abbr title="extention">ext:</abbr> 2387<br>
+			<a href="mailto:#">mohamed.helala "at" uoit "dot" ca</a></p>
+                </div>
+                <!-- end: -->
+		
+                <!-- item -->
+                <div class="col-md-3 text-center tileBox">
+                   <div class="txtHead">
+                    <h3><i class="fa fa-gears"></i> <span class="id-color">Industry</span></h3></div>
+                    <p class="text-left">(2007-2011) A Software engineer in <a href="http://www.hoiaste.com/index.php"><span>HOI/Aste</span></a> R&D department. I developed a DXF engine for generating Autocad files and a software system for automatic generation of drawings.</p>
+                </div>
+                <!-- end: -->
+
+                <!-- item -->
+                <div class="col-md-3 text-center tileBox">
+                    <div class="txtHead">
+                    <h3><i class="fa fa-lightbulb-o"></i><span class="id-color">Research</span></h3></div>
+                    <p class="text-left">(2011-now) A PhD Student in the UOIT computer vision group with <a href="http://faculty.uoit.ca/qureshi/"><span>Dr. Fasial Qureshi</span></a> and <a href="http://leda.science.uoit.ca/kenpu/"><span>Dr. Ken Pu</span></a>. My interests lie in computer vision and data stream processing.</p>
+                </div>
+                <!-- end: -->
+
+                <!-- item -->
+                <div class="col-md-3 text-center tileBox">
+                    <div class="txtHead">
+                    <h3><i class="fa fa-edit"></i><span class="id-color">Teaching</span></h3></div>
+                    <p>I worked as TA in UOIT for several courses such as <a href="http://leda.science.uoit.ca/teaching/compiler/index">compilers</a>, <a href="http://leda.science.uoit.ca/teaching/pl/index">programming languages</a>, <a href="http://leda.science.uoit.ca/teaching/sysdev/index">system development and Integration</a>, and software design and analysis.</p>
+                </div>
+                <!-- end: -->
+
+            </div>
+	    
+		<div class="container">
+			<div class="row">
+				<div id="nt-example2-container" class="col-md-4 centered nt-example2-face">
+					<ul id="nt-example2">
+					    <li data-infos="I attended ACCV 2014 in NUS, Singapore and presented the paper 'Accelerating Cost Volume Filtering Using Salient Subvolumes and Robust Occlusion Handling'. This paper presents our Accelerated Cost Volume Filtering (ACF) method, which shows speedup over the traditional Cost Volume Filtering (CF) method.">
+						<i class="fa fa-fw fa-play state"></i>
+						 <span imgdata="img/accv14.png"></span>Poster in ACCV 2014.
+					    </li>
+					    <li data-infos="I presented the paper 'Towards Efficient Feedback Control in Streaming Computer Vision Pipelines' in the UCCV 2014 workshop (co-located with ACCV 2014). This paper shows that our stream algebra framework can naturally describe feedback control in computer vision pipelines.">
+						<i class="fa fa-fw fa-play state"></i>
+						 <span imgdata="img/uccv14.png"></span>Presentation in UCCV 2014.
+					    </li>
+					    <li data-infos="The paper 'A Stream Algebra for Computer Vision Pipelines is presented in the VSM 2014 workshop (co-located with CVPR 2014). This paper presents the first formal stream algebra that provides a mathematical description of vision pipelines and depicts the distributed manipulation of image and video streams.">
+						<i class="fa fa-fw fa-play state"></i>
+						 <span imgdata="img/vsm14.png"></span>Presentation in VSM 2014.
+					    </li>
+					    <li data-infos="I released an online demo for Content Based Image Retrieval (CBIR). This demo uses keyword search to retrieve a relevant set of images, then user can select a query image and a set of features to re-rank results based on similarity.">
+						<i class="fa fa-fw fa-play state"></i>
+						 <span imgdata="img/cbirsearch.png">CBIR Online Demo.
+					    </li>
+					</ul>
+					<div class="nt-example2-face nt-example2-panel centered">
+						<i class="fa fa-arrow-left" id="nt-example2-prev"></i>
+				                <i class="fa fa-arrow-right" id="nt-example2-next"></i>
+					</div>
+				</div>
+				<div id="nt-example2-infos-container" class = "col-md-8 nt-example2-face">
+					<div id="nt-example2-infos-triangle"></div>
+					<div id="nt-example2-infos" class="row">
+						<div class="col-xs-4 centered">
+							<img src="img/accv14.png" class="infos-image">
+						</div>
+						<div class="col-xs-8">
+							<div class="infos-text"> I attended ACCV 2014 in NUS, Singapore and presented the paper 'Accelerating Cost Volume Filtering Using Salient Subvolumes and Robust Occlusion Handling'. This paper presents our Accelerated Cost Volume Filtering (ACF) method, which shows speedup over the traditional Cost Volume Filtering (CF) method. </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+        </div>
+    </section>
+    <!--Quote-->
+    <section id="quote" class="bg-parlex">
+        <div class="parlex-back">
+            <div class="container text-center">
+				<h2>Research is formalized curiosity. It is poking and prying with a purpose.</h2><h3>-Zora Neale Hurston</h3>
+            </div>.
+
+            <!--/.container-->
+        </div>
+    </section> 
+    <!--Experience-->
+    <section id="projects" class="secPad">
+    	<div class="container">     
+           <div class="heading text-center">
+                <!-- Heading -->
+                <h2>Professional Activities</h2>
+                <p>A timeline for my research activities and developed projects.</p>
+            </div>
+            <div id="timeline">
+                <div class="row timeline-movement timeline-movement-top">
+                    <div class="timeline-badge timeline-future-movement">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </a>
+                    </div>
+                    <div class="timeline-badge timeline-filter-movement">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-time"></span>
+                        </a>
+                    </div>
+        
+                </div>
+                <div id="stereo" class="row timeline-movement">
+                    <div class="timeline-badge">
+                        <span class="timeline-balloon-date-day">Feb</span>
+                        <span class="timeline-balloon-date-month">2014</span>
+                    </div>
+
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="timeline-panel credits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Supplementary Video</span></li>
+                                        <li><span class="causale"> 
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/SxcOc7Y22GA" allowfullscreen></iframe>
+                            </div></span></li>
+                                        <li><p><small class="text-muted"> ACCV 2014</small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Stereo Correspondence</span></li>
+                                        <li><span class="causale">We propose the Accelerated Cost Volume Filtering (ACF) method, which speeds up the traditional Cost Volume Filtering (CF) method. ACf identifies salient subvolumes in the cost volume. Filtering is restricted to these subvolumes, resulting in significant performance gains. We applied our method to disparity estimation from a stereo image pair and developed an occlusion handling method, which acts as a post-processing step that refines the disparity maps computed via filtering. Currently, we are exploring the use of slanted surfaces during the detection of salient subvolumes and we are implementing an efficient version of ACF for optical flow computation. </span> </li>
+                                        <a href="javascript:customScripts.scroll('#accv14')">[Reference]</a>
+                                        <li><p><small class="text-muted"> 18/02/2014 - 30/05/2014</small></p> </li>
+                                    </ul>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="stream" class="row timeline-movement">
+    
+                    <div  class="timeline-badge">
+                        <span class="timeline-balloon-date-day">Jan</span>
+                        <span class="timeline-balloon-date-month">2013</span>
+                    </div>
+    
+    
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="timeline-panel credits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Implementing a Traffic Analysis Pipeline</span></li>
+                                        <li><span class="causale"><img src="img/traffic-pip.png" class="img-responsive"></span> </li>
+                                        <li><p><small class="text-muted"> 1/06/2013 - Present</small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Stream Algebra Framework</span></li>
+                                        <li><span class="causale"> We propose a formal stream algebra as an abstract framework that mathematically describes computer vision pipelines. The algebra defines a set of concurrent operators that can describe a pipeline of vision tasks, with image and video streams as operands. We also extend the algebra framework by developing a formal and abstract description of feedback control in computer vision pipelines. Currently, we are studying feedback control to perform adaptive parameter selection, iterative optimization and performance tuning.</span> </li>
+                                        <a href="javascript:customScripts.scroll('#cvpr14')">[Reference]</a>
+                                        <li><p><small class="text-muted"> 1/06/2013 - Present</small></p> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!--due -->
+                <div id="mosaics" class="row timeline-movement">
+                    <div class="timeline-badge">
+                        <span class="timeline-balloon-date-day">May</span>
+                        <span class="timeline-balloon-date-month">2012</span>
+                    </div>
+                
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="timeline-panel credits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Supplementary Video</span></li>
+                                        <li><span class="causale">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/qZaElUp0Pc4" allowfullscreen></iframe>
+                            </div> </span> </li>
+                                        <li><p><small class="text-muted">Creating view dependent mosaics</small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Video Mosaicing</span></li>
+                                        <li><span class="causale">We are developing new techniques for generating large-scale mosaics from near ground UAV videos. Such techniques should be able to handle several challenges such as the parallax effects of buildings toward camera motion, the generation of high-quality mosaics and the support of different camera motion models.</span> </li>
+                                        <a href="javascript:customScripts.scroll('#icdsc12')">[Reference]</a>
+                                        <li><p><small class="text-muted"> 1/05/2012 - 1/09/2012</small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="traffic" class="row timeline-movement">
+                    <div class="timeline-badge">
+                        <span class="timeline-balloon-date-day">Jan</span>
+                        <span class="timeline-balloon-date-month">2012</span>
+                    </div>
+    
+            	    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="timeline-panel credits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Sample Results</span></li>
+                                        <li><span class="causale"><img src="img/road-detection.png" class="img-responsive"></span> </li>
+                                        <li><p><small class="text-muted">Road boundary detection using our traffic video analysis pipeline.</small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Traffic Survillance</span></li>
+                                        <li><span class="causale">We are studying automatic techniques for analyzing traffic video under challenging environmental conditions. We addressed the problem of automatic road and lane boundary detection under severe vision scenarios, such as partially occluded roads and unlit highways. Currently, we are addressing the problems of measuring accurate traffic statistics, identify ongoing and incoming lanes, dynamic camera calibration, and adaption of view changes due to wind or human operators.</span> </li>
+                                        <a href="javascript:customScripts.scroll('#avss12')">[Reference]</a>
+                                        <li><p><small class="text-muted"> 1/01/2012 - 30/05/2012 </small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cbir" class="row timeline-movement">
+                    <div class="timeline-badge">
+                        <span class="timeline-balloon-date-day">Jan</span>
+                        <span class="timeline-balloon-date-month">2010</span>
+                    </div>
+                	<div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="timeline-panel credits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Online Demonstration</span></li>
+                                        <li><span class="causale"><a href="http://mytomcatapp-helala.rhcloud.com/ImageSearch"><img src="img/image-ret.png" class="img-responsive"></a><a href="http://mytomcatapp-helala.rhcloud.com/ImageSearch">Try it now</a></span> </li>
+                                        <li><p><small class="text-muted">Re-ranking keyword search results using a query image.</small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Content Based Image Retrieval (CBIR)</span></li>
+                                        <li><span class="causale">During my master work, I studied CBIR, where I addressed broad domain image search and retrieval in large image collections by evaluating recent approaches and developing new techniques to provide more precise image description and better retrieval accuracy.</span> </li>
+                                        <a href="javascript:customScripts.scroll('#ijcsi12')">[Reference]</a>
+                                        <li><p><small class="text-muted"> 1/01/2010 - 1/11/2010</small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </section>
+    
+    <!--Contact -->
+    <section id="publications" class="secPad">
+        <div class="container">
+		<div class="heading text-center">
+                <!-- Heading -->
+                <h2>Publications</h2>
+            </div>
+            <div class="row mrgn30 ref-panel">
+		<div class="list2">
+		   <ol>
+		      <li><p>
+				<a href="#" id="uccv14" class="papertitle">"Towards Efficient Feedback Control in Streaming Computer Vision Pipelines."</a>, 
+				<span class="paperauth">Mohamed A. Helala</span>, 
+				Ken Q. Pu, Faisal Z. Qureshi, 
+				<span class="papervenue">2nd Workshop on User-Centered Computer Vision (UCCV) in conjunction with ACCV 2014</span>, 
+				Singapore, Nov. 2014.
+			</p></li>
+		      <li><p><a href="#" id="accv14" class="papertitle">"Accelerating Cost Volume Filtering Using Salient Subvolumes and Robust Occlusion Handling."</a>, 
+				<span class="paperauth">Mohamed A. Helala</span>, 
+				Faisal Z. Qureshi, 
+				<span class="papervenue">12th Asian Conference on Computer Vision (ACCV)</span>, 
+				Singapore, Nov. 2014.
+			</p></li>
+		      <li><p><a href="http://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W20/papers/Helala_A_Stream_Algebra_2014_CVPR_paper.pdf" id="cvpr14" class="papertitle">"A Stream Algebra For Computer Vision Pipelines."</a>, 
+				<span class="paperauth">Mohamed A. Helala</span>, 
+				Ken Q. Pu, Faisal Z. Qureshi, 
+				<span class="papervenue">2nd Workshop on Web-scale Vision and Social Media (VSM) in conjunction with CVPR 2014</span>, 
+				Columbus, Ohio, June. 2014.
+			</p></li>
+		      <li><p><a href="files/12-icdsc-c.pdf" id="icdsc12" class="papertitle">"Mosaic of Near Ground UAV Videos Under Parallax Effects"</a>, 
+				<span class="paperauth">Mohamed A. Helala</span>, 
+				Luis A. Zarrabeitia, Faisal Z. Qureshi, 
+				<span class="papervenue">Proc. 6th ACM/IEEE International Conference on Distributed Smart Cameras (ICDSC)</span>, 
+				Hong Kong, China, Oct. 2012.
+			</p></li>
+			<li><p><a href="files/12-avss-c.pdf" id="avss12" class="papertitle">"Road Boundary Detection in Challenging Scenarios"</a>, 
+				<span class="paperauth">Mohamed A. Helala</span>, 
+				 Ken Q. Pu, Faisal Z. Qureshi, 
+				<span class="papervenue">Proc. 9th IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS)
+				</span>, Beijing, China, Sept. 2012.
+			</p></li>
+			<li><p><a href="http://www.ijcsi.org/papers/IJCSI-9-4-1-204-213.pdf" id="ijcsi12" class="papertitle">"A Content Based Image Retrieval Approach Based On Principal Regions Detection"</a>, 
+				<span class="paperauth">Mohamed A. Helala</span>, 
+				 Mazen M. Selim, Hala H. Zayed,
+				<span class="papervenue">International Journal of Computer Science Issues (IJCSI)</span>, 
+				 Vol. 9, Issue 4, No 1, Jul. 2012.
+			</p></li>
+			<li><p><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5380453" id="iccee12" class="papertitle">"An Image Retrieval Approach Based on Composite Features and Graph Matching"</a>, 
+				<span class="paperauth">Mohamed A. Helala</span>, 
+				 Mazen M. Selim, Hala H. Zayed,
+				<span class="papervenue">Proc. IEEE International Conference on Computer and Electrical Engineering (ICCEE)</span>, 
+				 Dubai, Emirate, Dec. 2009.
+			</p></li>
+		   </ol>
+		</div>
+            </div>
+        </div>
+        <!--/.container-->
+    </section>
+    
+     <section id="activities-awards" class="secPad titlebox">
+        <div class="container">
+            <div class="row">
+		<!-- item -->
+                <div class="col-md-6 text-center tileBox">
+                    <div class="txtHead">
+                    <h3><i class="fa fa-pencil"></i><span class="id-color">Activities</span></h3></div>
+			<ol class="list3 content">
+			<li><p><em>Discussion Group</em>A weekly seminar where all students in the <a href="http://vclab.science.uoit.ca/">visual computing 
+							    	lab</a> discuss recent research in computer vision and graphics.</p></li>
+			<li><p><em>Blog</em><a href="http://mhelala.blogspot.ca/">My Personal Blog</a></p></li>
+			<li><p><em>Reading</em>Currently, I'm reading the book "Decision Forests for Computer Vision and Medical Image Analysis". This book dives into the theory and applications of random forests in computer vision. I like playing with the Sherwood library that accompanies the book.
+            </p></li>
+			</ol>
+                </div>
+                <!-- end: -->
+		
+                <!-- item -->
+                <div class="col-md-6 text-center tileBox">
+                   <div class="txtHead">
+			<h3><i class="fa fa-certificate"></i> <span class="id-color">Awards</span></h3></div>
+			<ol class="list3 content">
+			<li><p><em>2011</em>Awarded the <a href="http://gradstudies.uoit.ca/current_students/student_finances/graduate_student_funding/external_awards/ontario-trillium-scholarship.php">Ontario Trillium Scholarship (OTS) Award</a> </p></li>
+			<li><p><em>2011</em>Nominated for Fulbright scholarship by the binational Fulbright commission in Egypt(only 10 nominations in all fields each year)[Left for commitment with the OTS award]</p></li>
+            <li><p><em>2011</em>Egyptian Government PhD Scholarship Award [Left for commitment with the OTS award]</p></li>
+			<li><p><em>2004</em>The Honor Degree for Academic Distinction</p></li>
+			<li><p><em>2004</em>Dean’s Gold Medal for Graduating First Place in B.Sc. Electrical and Computer Engineering
+</p></li>
+			</ol>
+                </div>
+                <!-- end: -->
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="social text-center">
+                <a href="https://twitter.com/Mohamed_Helala"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/mohamed.helala.1"><i class="fa fa-facebook"></i></a>
+                <a href="https://plus.google.com/114765445236633498280/posts"><i class="fa fa-google-plus"></i></a>
+                <a href='http://mhelala.blogspot.ca/'> <i class="fa fa-bold"></i></a>
+                <a href="https://github.com/mohamed-helala"><i class="fa fa-github"></i></a>
+            </div>
+            <div class="clear"></div>
+            <!--CLEAR FLOATS-->
+        </div>
+    </footer>
+    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
+
+    <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
+    <script src="js/modernizr-latest.js"></script>
+    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.newsTicker.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="js/jquery.nav.js" type="text/javascript"></script>
+    <script src="js/jquery.cslider.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="js/owl-carousel/owl.carousel.js"></script>
+    <script>
+    var nt_example2 = $('#nt-example2').newsTicker({
+	row_height: 60,
+	max_rows: 1,
+	speed: 300,
+	duration: 6000,
+	prevButton: $('#nt-example2-prev'),
+	nextButton: $('#nt-example2-next'),
+	hasMoved: function() {
+		$('#nt-example2-infos-container').fadeOut(200, function(){
+			$('#nt-example2-infos .infos-image').attr("src", $('#nt-example2 li:first span').attr("imgdata"));
+			$('#nt-example2-infos .infos-text').text($('#nt-example2 li:first').data('infos'));
+			$(this).fadeIn(400);
+		});
+	},
+	pause: function() {
+		$('#nt-example2 li i').removeClass('fa-play').addClass('fa-pause');
+	},
+	unpause: function() {
+		$('#nt-example2 li i').removeClass('fa-pause').addClass('fa-play');
+	}
+	});
+	$('#nt-example2-infos').hover(function() {
+	nt_example2.newsTicker('pause');
+	}, function() {
+	nt_example2.newsTicker('unpause');
+	});
+    </script>
+</body>
+</html>
